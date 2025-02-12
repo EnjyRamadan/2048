@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #3f4a5c;
+    color: white;
+}
+
+h1 {
+    color: #f67a98;
+}
+
+#score {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #ee577c;
+}
+
+#grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 10px;
+    background: #862b41;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    background: white;
+    color: white;
+}
+button#new-game {
+   
+    background: black;
+    color:#ee577c ;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button#new-game:hover {
+    background: black;
+}
+h1 {
+    transition: all 0.5s;
+    -webkit-text-stroke: 4px #d6f4f4;
+    font-variation-settings: "wght" 900, "ital" 1;
+    font-size: 5rem;
+    text-align: center;
+    color: transparent;
+    font-family: "Meta", sans-serif;
+    text-shadow: 10px 10px 0px #07bccc,
+      15px 15px 0px #e601c0,
+      20px 20px 0px #e9019a,
+      25px 25px 0px #f40468,
+      45px 45px 10px #482896;
+    cursor: pointer;
+  }
+  
+  h1:hover {
+    font-variation-settings: "wght" 100, "ital" 0;
+    text-shadow: none;
+  }
+.tile-2 { background: #ee577c; }
+.tile-4 { background: #f6a26f; }
+.tile-8 { background: #bc4361; color: white; }
+.tile-16 { background: #862b41; color: white; }
+.tile-32 { background: #db4f4a; color: white; }
+.tile-64 { background: #f1c40f; color: white; }
+.tile-128 { background: #27ae60; color: white; }
+.tile-256 { background: #2980b9; color: white; }
+.tile-512 { background: #8e44ad; color: white; }
+.tile-1024 { background: #c0392b; color: white; }
+.tile-2048 { background: #ff5733; color: white; }
