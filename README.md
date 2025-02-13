@@ -35,7 +35,7 @@ cd 2048-game
 open home.html
 ```
 
-## Demo
+## GUI
 
 ![Game Screenshot](game-screenshot.png)
 
