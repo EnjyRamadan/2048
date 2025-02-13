@@ -30,7 +30,7 @@ This is a **classic 2048 game** built using **HTML, CSS, and JavaScript**. The o
 To run the game locally, follow these steps:
 
 ```bash
-git clone [https://github.com/yourusername/2048-game.git](https://github.com/EnjyRamadan/2048.git)
+git clone https://github.com/EnjyRamadan/2048.git
 open home.html
 ```
 
